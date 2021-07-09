@@ -1,0 +1,8 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,CreateAContact,TC01-CITS Demo,Single,Passed,Chrome,Default,Any
+true,CreateAContact,TestCase1,Single,Passed,Chrome,Default,Any
+true,CreateAContact,TestCase2,Single,Passed,Chrome,Default,Any
+true,CreateAContact,TestCase3,Single,Passed,Chrome,Default,Any
+true,CreateAContact,TestCase4,Single,Passed,Chrome,Default,Any
+true,CreateAContact,TestCase5,Single,Passed,Chrome,Default,Any
+true,CreateAContact,TestCase6,Single,Failed,Chrome,Default,Any

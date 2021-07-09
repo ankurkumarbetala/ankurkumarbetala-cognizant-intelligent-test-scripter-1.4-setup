@@ -1,0 +1,20 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,%D365 URL%,,
+2,Browser,Wait for Page to be loaded,waitForPageLoaded,,,
+3,LoginPage.txtbx_Username,"Wait for [<Object>] to be invisible ",waitForElementToBeClickable,,,LoginPage
+4,LoginPage.txtbx_Username,"Click the [<Object>] ",Click,,,LoginPage
+5,LoginPage.txtbx_Username,Enter the value [<Data>] in the Field [<Object>],Set,%D365 Username%,,LoginPage
+6,LoginPage.tbx_UsernameNext,"Click the [<Object>] ",Click,,,LoginPage
+7,Browser,Wait for Page to be loaded,pause,@2000,,
+8,LoginPage.txtbx_Password,"Click the [<Object>] ",Click,,,LoginPage
+9,LoginPage.txtbx_Password,Enter the value [<Data>] in the Field [<Object>],Set,%D365 Password%,,LoginPage
+10,LoginPage.txtbx_Submit,"Click the [<Object>] ",Click,,,LoginPage
+11,Browser,Wait for Page to be loaded,waitForPageLoaded,,,
+12,LoginPage.btn_YesStaySignedIN,"Wait for [<Object>] to be clickable ",waitForElementToBeClickable,,,LoginPage
+13,LoginPage.btn_YesStaySignedIN,Click the [<Object>] if it is displayed,Click,,,LoginPage
+14,Browser,Wait for Page to be loaded,waitForPageLoaded,,,
+15,HomePage.frame_IframeApps,Wait for Frame To Be Available and Switch to it,waitForFrameAndSwitch,,,HomePage
+16,HomePage.lnk_CustomerServiceHub,"Wait for [<Object>] to be invisible ",waitForElementToBeClickable,,,HomePage
+17,HomePage.lnk_CustomerServiceHub,"Click the [<Object>] ",Click,,,HomePage
+18,Browser,Wait for Page to be loaded,waitForPageLoaded,,,
+19,Browser,Wait for [<Data>] milli seconds,pause,@7000,,

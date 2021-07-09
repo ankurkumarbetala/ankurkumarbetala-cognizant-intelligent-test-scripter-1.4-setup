@@ -1,0 +1,18 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,LoginSteps:LoginSteps_SalesHub,,,
+2,SalesHubPage.lnk_Contacts,"Click the [<Object>] ",Click,,,SalesHub
+3,Execute,,Browser Reusables:waitForPageLoad,,,
+4,ContactsPage.btn_New,"Click the [<Object>] ",Click,,,ContactsPage
+5,Execute,,Browser Reusables:waitForPageLoad,,,
+6,ContactsPage.tbx_Fname,"Click the [<Object>] ",Click,,,ContactsPage
+7,ContactsPage.tbx_Fname,Clear text [<Data>] from object [<Object>].,clear,,,ContactsPage
+8,ContactsPage.tbx_Fname,Enter the value [<Data>] in the Field [<Object>],Set,TestData0:Fname,,ContactsPage
+9,ContactsPage.tbx_Lname,"Click the [<Object>] ",Click,,,ContactsPage
+10,ContactsPage.tbx_Lname,Clear text [<Data>] from object [<Object>].,clear,,,ContactsPage
+11,ContactsPage.tbx_Lname,Enter the value [<Data>] in the Field [<Object>],Set,TestData0:Lname,,ContactsPage
+12,ContactsPage.tbx_Email,"Click the [<Object>] ",Click,,,ContactsPage
+13,ContactsPage.tbx_Email,Clear text [<Data>] from object [<Object>].,clear,,,ContactsPage
+14,ContactsPage.tbx_Email,Enter the value [<Data>] in the Field [<Object>],Set,TestData0:Email,,ContactsPage
+15,Execute,,Browser Reusables:pause,,,
+16,ContactsPage.tbx_SaveAndClose,"Click the [<Object>] ",Click,,,ContactsPage
+17,Execute,,Browser Reusables:pause,,,

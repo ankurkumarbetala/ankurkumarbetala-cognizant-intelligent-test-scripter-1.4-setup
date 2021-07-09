@@ -1,0 +1,102 @@
+2021-03-18 12:56:00:03S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2021-03-18 12:56:00:03S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-03-18 12:57:59:03S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-03-18 12:57:59:03S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startHeal:Launching Server for Heal
+2021-03-18 12:57:59:03S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-03-18 12:58:03:03S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-03-18 13:02:26:03S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2021-03-18 13:02:26:03S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-03-18 13:02:45:03S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-03-19 16:13:00:03S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2021-03-19 16:13:00:03S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-03-19 16:13:17:03S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-03-23 10:05:35:03S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startHeal:Launching Server for Heal
+2021-03-23 10:05:35:03S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-03-23 10:05:40:03S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-12 09:44:17:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2021-04-12 09:44:17:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-12 09:46:03:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-12 09:49:38:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2021-04-12 09:49:38:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-12 09:51:04:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-12 09:51:35:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startHeal:Launching Server for Heal
+2021-04-12 09:51:35:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-12 09:52:17:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-12 09:52:29:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startHeal:Launching Server for Heal
+2021-04-12 09:52:29:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-12 09:53:53:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-12 13:23:12:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2021-04-12 13:23:12:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-12 13:24:11:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-12 16:23:39:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2021-04-12 16:23:39:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-12 16:24:28:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-12 16:25:54:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2021-04-12 16:25:54:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-12 16:26:00:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-12 16:26:06:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2021-04-12 16:26:06:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-12 16:26:55:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-12 16:28:42:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startHeal:Launching Server for Heal
+2021-04-12 16:28:42:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-12 16:30:03:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-12 16:30:14:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2021-04-12 16:30:14:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-12 16:30:36:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-12 16:30:53:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startHeal:Launching Server for Heal
+2021-04-12 16:30:53:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-12 16:32:22:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-13 09:26:21:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2021-04-13 09:26:21:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-13 09:27:38:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-13 09:47:56:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2021-04-13 09:47:56:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-13 09:48:52:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-14 15:05:50:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2021-04-14 15:05:50:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-14 15:06:14:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-14 15:06:17:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2021-04-14 15:06:17:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-14 15:06:37:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-14 15:06:39:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2021-04-14 15:06:39:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-14 15:07:05:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-14 15:07:13:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2021-04-14 15:07:13:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-14 15:08:04:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-14 15:27:55:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2021-04-14 15:27:55:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-14 15:28:34:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-15 09:14:18:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2021-04-15 09:14:18:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-15 09:15:19:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-15 09:15:21:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2021-04-15 09:15:21:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-15 09:15:38:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-19 16:32:53:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2021-04-19 16:32:53:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-19 16:33:24:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-20 14:51:13:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2021-04-20 14:51:13:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-20 14:51:39:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-20 16:43:45:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2021-04-20 16:43:45:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-20 16:44:05:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-23 13:35:57:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2021-04-23 13:35:57:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-23 13:36:07:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-30 15:43:37:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2021-04-30 15:43:37:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-30 15:45:58:04S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-05-14 15:54:07:05S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2021-05-14 15:54:07:05S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-05-14 15:56:16:05S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-05-18 12:23:51:05S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2021-05-18 12:23:51:05S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-05-18 12:24:50:05S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-05-28 16:28:50:05S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2021-05-28 16:28:50:05S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-05-28 16:29:55:05S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-05-28 16:31:10:05S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2021-05-28 16:31:10:05S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-05-28 16:31:37:05S -0400 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped

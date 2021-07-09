@@ -1,0 +1,39 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,LoginSteps:LoginSteps_SalesHub,,,
+2,SalesHubPage.lnk_Contacts,"Click the [<Object>] ",Click,,,SalesHub
+3,Execute,,Browser Reusables:waitForPageLoad,,,
+4,ContactsPage.btn_New,"Click the [<Object>] ",Click,,,ContactsPage
+5,Execute,,Browser Reusables:waitForPageLoad,,,
+6,ContactsPage.tbx_Fname,"Click the [<Object>] ",Click,,,ContactsPage
+7,ContactsPage.tbx_Fname,Clear text [<Data>] from object [<Object>].,clear,,,ContactsPage
+8,ContactsPage.tbx_Fname,Enter the value [<Data>] in the Field [<Object>],Set,TestData0:Fname,,ContactsPage
+9,ContactsPage.tbx_Lname,"Click the [<Object>] ",Click,,,ContactsPage
+10,ContactsPage.tbx_Lname,Clear text [<Data>] from object [<Object>].,clear,,,ContactsPage
+11,ContactsPage.tbx_Lname,Enter the value [<Data>] in the Field [<Object>],Set,TestData0:Lname,,ContactsPage
+12,ContactsPage.tbx_Email,"Click the [<Object>] ",Click,,,ContactsPage
+13,ContactsPage.tbx_Email,Clear text [<Data>] from object [<Object>].,clear,,,ContactsPage
+14,ContactsPage.tbx_Email,Enter the value [<Data>] in the Field [<Object>],Set,TestData0:Email,,ContactsPage
+15,ContactsPage.tbx_Email,Store the [<Object>] element's text into datasheet:columname [<Data>],storeTextinDataSheet,AssertData:Email,,ContactsPage
+16,Browser,Add a Global variable to access across test set,AddGlobalVar,AssertData:Email,%Global_Email%,
+17,Execute,,Browser Reusables:pause,,,
+18,ContactsPage.tbx_SaveAndClose,"Click the [<Object>] ",Click,,,ContactsPage
+19,Execute,,Browser Reusables:pause,,,
+20,ContactsPage.drpdwn_MyActiveContacts,"Wait for [<Object>] to be clickable ",waitForElementToBeClickable,,,ContactsPage
+21,ContactsPage.drpdwn_MyActiveContacts,"Click the [<Object>] ",Click,,,ContactsPage
+22,ContactsPage.drpdwn_AllContacts,Click the [<Object>] and Wait for Page to be loaded,Click,,,ContactsPage
+23,ContactsPage.tbx_Search,"Click the [<Object>] ",Click,,,ContactsPage
+24,ContactsPage.tbx_Search,Enter the value [<Data>] in the Field [<Object>],Set,%Global_Email%,,ContactsPage
+25,ContactsPage.btn_Search,"Click the [<Object>] ",Click,,,ContactsPage
+26,Execute,,Browser Reusables:waitForPageLoad,,,
+27,Execute,,Browser Reusables:pause,,,
+28,ContactsPage.lnk_SearchResultsTable,Set object [<Object>] property  as [<Data>] at runtime,setObjectProperty,AssertData:Email,"#email",ContactsPage
+29,ContactsPage.lnk_SearchResultsTable,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,%Global_Email%,,ContactsPage
+30,Execute,,Browser Reusables:pause,,,
+31,Browser,print the data [<Data>],takeScreenshot,,,
+32,WObject0,Set object [<Object>] property  as [<Data>] at runtime,setObjectProperty,AssertData:Email,"#email1",ContactsPage
+33,WObject0,"Click the [<Object>] ",Click,,,ContactsPage
+34,Execute,,Browser Reusables:pause,,,
+35,ContactsPage.btn_DeleteContact,"Click the [<Object>] ",Click,,,ContactsPage
+36,Execute,,Browser Reusables:pause,,,
+37,ContactsPage.btn_ConfirmDeleteContact,"Click the [<Object>] ",Click,,,ContactsPage
+38,Execute,,Browser Reusables:pause,,,

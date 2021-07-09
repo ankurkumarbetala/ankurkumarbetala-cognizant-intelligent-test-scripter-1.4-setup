@@ -1,0 +1,40 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,LoginSteps:LoginSteps_SalesHub,,,
+2,SalesHubPage.lnk_Contacts,"Click the [<Object>] ",Click,,,SalesHub
+3,Execute,,Browser Reusables:waitForPageLoad,,,
+4,ContactsPage.btn_New,"Click the [<Object>] ",Click,,,ContactsPage
+5,Execute,,Browser Reusables:waitForPageLoad,,,
+6,ContactsPage.tbx_Fname,"Click the [<Object>] ",Click,,,ContactsPage
+7,ContactsPage.tbx_Fname,Clear text [<Data>] from object [<Object>].,clear,,,ContactsPage
+8,ContactsPage.tbx_Fname,Enter the value [<Data>] in the Field [<Object>],Set,TestData0:Fname,,ContactsPage
+9,ContactsPage.tbx_Lname,"Click the [<Object>] ",Click,,,ContactsPage
+10,ContactsPage.tbx_Lname,Clear text [<Data>] from object [<Object>].,clear,,,ContactsPage
+11,ContactsPage.tbx_Lname,Enter the value [<Data>] in the Field [<Object>],Set,TestData0:Lname,,ContactsPage
+12,ContactsPage.tbx_Email,"Click the [<Object>] ",Click,,,ContactsPage
+13,ContactsPage.tbx_Email,Clear text [<Data>] from object [<Object>].,clear,,,ContactsPage
+14,ContactsPage.tbx_Email,Enter the value [<Data>] in the Field [<Object>],Set,TestData0:Email,,ContactsPage
+15,ContactsPage.tbx_Email,Store the [<Object>] element's text into datasheet:columname [<Data>],storeTextinDataSheet,AssertData:Email,,ContactsPage
+16,Browser,Add a Global variable to access across test set,AddGlobalVar,AssertData:Email,%Global_Email%,
+17,Execute,,Browser Reusables:pause,,,
+18,ContactsPage.tbx_SaveAndClose,"Click the [<Object>] ",Click,,,ContactsPage
+19,Execute,,Browser Reusables:pause,,,
+20,ContactsPage.btn_New,"Click the [<Object>] ",Click,,,ContactsPage
+21,Execute,,Browser Reusables:waitForPageLoad,,,
+22,ContactsPage.tbx_Lname,"Click the [<Object>] ",Click,,,ContactsPage
+23,ContactsPage.tbx_Lname,Clear text [<Data>] from object [<Object>].,clear,,,ContactsPage
+24,ContactsPage.tbx_Lname,Enter the value [<Data>] in the Field [<Object>],Set,TestData0:Lname,,ContactsPage
+25,ContactsPage.tbx_Email,"Click the [<Object>] ",Click,,,ContactsPage
+26,ContactsPage.tbx_Email,Clear text [<Data>] from object [<Object>].,clear,,,ContactsPage
+27,ContactsPage.tbx_Email,Enter the value [<Data>] in the Field [<Object>],Set,%Global_Email%,,ContactsPage
+28,Execute,,Browser Reusables:waitForPageLoad,,,
+29,ContactsPage.tbx_SaveAndClose,"Click the [<Object>] ",Click,,,ContactsPage
+30,Execute,,Browser Reusables:waitForPageLoad,,,
+31,ContactsPage.txt_DuplicateRecordErrorBox,"Click the [<Object>] ",setObjectProperty,%Global_Email%,"#email",ContactsPage
+32,ContactsPage.txt_DuplicateRecordErrorBox,Highlight the element [<Object>],highlight,,,ContactsPage
+33,ContactsPage.txt_DuplicateRecordErrorBox,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,%Global_Email%,,ContactsPage
+34,ContactsPage.btn_DuplicateRecordCancel,Highlight the element [<Object>],highlight,,,ContactsPage
+35,ContactsPage.btn_DuplicateRecordCancel,"Click the [<Object>] ",Click,,,ContactsPage
+36,ContactsPage.btn_GoBack,"Click the [<Object>] ",Click,,,ContactsPage
+37,ContactsPage.btn_DiscardChanges,"Click the [<Object>] ",Click,,,ContactsPage
+38,Execute,,Browser Reusables:pause,,,
+39,Execute,,Browser Reusables:driverClose,,,

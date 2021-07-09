@@ -1,0 +1,8 @@
+Scenario,Flow,Iteration,SubIteration,WarningMessage1,WarningMessage2,Email,Contact,Topic,Error,Verify
+CreateAContact,TestCase2,1,1,Required fields must be,Required fields must be,,,,,
+CreateAContact,TestCase3,1,1,,,QaAnkurTEST904@gmail.com,,,,
+CreateAContact,TestCase4,1,1,,,QaAnkurTEST111@gmail.com,,,,
+CreateAContact,TestCase6,1,1,,,,,,,
+CreateAContact,TestCase7,1,1,No data,,,,,,
+CreateAContact,TC01-CITS Demo,1,1,,,QaAnkurTEST107@gmail.com,,,,
+Cases,CreateACase,1,1,,,,,,Required fields must be,Read Only

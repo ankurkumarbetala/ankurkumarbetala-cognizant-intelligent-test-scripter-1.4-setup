@@ -1,0 +1,10 @@
+Scenario,Flow,Iteration,SubIteration,Fname,Lname,Email,Apps Name,Search Var,Topic,Contact,Forecast,Opportunity Drpdwn,AccountName,RelationshipStyle,Phone,Industry,Ownership,NewColumn0,Case Title
+CreateAContact,TestCase1,1,1,"=Concat(""QAAnkurTEST"",=Round(=Random(2)))","=Concat(""QATEST"",=Round(=Random(3)))","=Concat(""QaAnkurTEST"",=Round(=Random(3)),""@gmail.com"")",Sales Hub,,,,,,,,,,,,
+CreateAContact,TestCase2,1,1,"=Concat(""QAAnkurTEST"",=Round(=Random(2)))",,,,,,,,,,,,,,,
+CreateAContact,TestCase3,1,1,"=Concat(""QAAnkurTEST"",=Round(=Random(2)))","=Concat(""QATEST"",=Round(=Random(3)))","=Concat(""QaAnkurTEST"",=Round(=Random(3)),""@gmail.com"")",,,,,,,,,,,,,
+CreateAContact,TestCase4,1,1,"=Concat(""QAAnkurTEST"",=Round(=Random(2)))","=Concat(""QATEST"",=Round(=Random(3)))","=Concat(""QaAnkurTEST"",=Round(=Random(3)),""@gmail.com"")",,,,,,,,,,,,,
+CreateAContact,TestCase6,1,1,"=Concat(""QAAnkurTEST"",=Round(=Random(2)))","=Concat(""QATEST"",=Round(=Random(3)))","=Concat(""QaAnkurTEST"",=Round(=Random(3)),""@gmail.com"")",,QAAnkur,,,,,,,,,,,
+CreateAContact,TestCase7,1,1,"=Concat(""QAAnkurTEST"",=Round(=Random(2)))","=Concat(""QATEST"",=Round(=Random(3)))","=Concat(""QaAnkurTEST"",=Round(=Random(3)),""@gmail.com"")",,QAAnkur,,,,,,,,,,,
+CreateAContact,TC01-CITS Demo,1,1,"=Concat(""QAAnkurTEST"",=Round(=Random(2)))","=Concat(""QATEST"",=Round(=Random(3)))","=Concat(""QaAnkurTEST"",=Round(=Random(3)),""@gmail.com"")",,,,,,,,,,,,,
+CreateAContact,NewTestCase,1,1,,,,,,,,,,,,,,,data,
+Cases,CreateACase,1,1," A Datum Corporation",,,,,,,,,,,,,,,"=Concat(""QATEST BUBBLE WRAP"",=Round(=Random(2)))"

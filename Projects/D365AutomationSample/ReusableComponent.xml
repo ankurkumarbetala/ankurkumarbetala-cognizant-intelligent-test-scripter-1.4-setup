@@ -1,0 +1,13 @@
+<Root ref="D365AutomationSample" type="RC">
+<Folder ref="New Group">
+<Scenario ref="Browser Reusables">
+<TestCase exeType="Executable" ref="driverClose"/>
+<TestCase exeType="Executable" ref="pause"/>
+<TestCase exeType="Executable" ref="waitForPageLoad"/>
+</Scenario>
+<Scenario ref="LoginSteps">
+<TestCase exeType="Executable" ref="LoginSteps_CustomerServiceHub"/>
+<TestCase exeType="Executable" ref="LoginSteps_SalesHub"/>
+</Scenario>
+</Folder>
+</Root>

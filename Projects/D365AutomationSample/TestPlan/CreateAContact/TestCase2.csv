@@ -1,0 +1,15 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,LoginSteps:LoginSteps_SalesHub,,,
+2,SalesHubPage.lnk_Contacts,"Click the [<Object>] ",Click,,,SalesHub
+3,Execute,,Browser Reusables:waitForPageLoad,,,
+4,ContactsPage.btn_New,"Click the [<Object>] ",Click,,,ContactsPage
+5,Execute,,Browser Reusables:waitForPageLoad,,,
+6,ContactsPage.tbx_Fname,"Click the [<Object>] ",Click,,,ContactsPage
+7,ContactsPage.tbx_Fname,Clear text [<Data>] from object [<Object>].,clear,,,ContactsPage
+8,ContactsPage.tbx_Fname,Enter the value [<Data>] in the Field [<Object>],Set,TestData0:Fname,,ContactsPage
+9,ContactsPage.tbx_SaveAndClose,"Click the [<Object>] ",Click,,,ContactsPage
+10,Execute,,Browser Reusables:waitForPageLoad,,,
+11,ContactsPage.txt_WarningForMandatoryField,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,AssertData:WarningMessage1,,ContactsPage
+12,ContactsPage.txt_WarningForMandatoryField2,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,AssertData:WarningMessage2,,ContactsPage
+13,Execute,,Browser Reusables:pause,,,
+14,Execute,,Browser Reusables:driverClose,,,

@@ -1,0 +1,13 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,LoginSteps:LoginSteps_SalesHub,,,
+2,SalesHubPage.lnk_Contacts,"Click the [<Object>] ",Click,,,SalesHub
+3,Execute,,Browser Reusables:pause,,,
+4,ContactsPage.tbx_Search,"Click the [<Object>] ",Click,,,ContactsPage
+5,ContactsPage.tbx_Search,Enter the value [<Data>] in the Field [<Object>],Set,%Global_Email%,,ContactsPage
+6,ContactsPage.btn_Search,"Click the [<Object>] ",Click,,,ContactsPage
+7,Execute,,Browser Reusables:pause,,,
+8,ContactsPage.chkbx_IndividualContact,Set object [<Object>] property  as [<Data>] at runtime,setObjectProperty,%Global_Email%,"#emailsrx",ContactsPage
+9,ContactsPage.chkbx_IndividualContact,"Click the [<Object>] ",Click,,,ContactsPage
+10,ContactsPage.btn_DeleteContact,"Click the [<Object>] ",Click,,,ContactsPage
+11,ContactsPage.btn_ConfirmDeleteContact,"Click the [<Object>] ",Click,,,ContactsPage
+12,Execute,,Browser Reusables:pause,,,
